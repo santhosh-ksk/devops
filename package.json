@@ -3,7 +3,8 @@
   "version": "",
   "author": "santhosh-ksk",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "test": "vows --spec"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
